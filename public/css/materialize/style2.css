@@ -1,0 +1,91 @@
+body{
+	background-color: #f5f5f5;
+	 font-family: 'Source Sans Pro', sans-serif;
+  color: #444;
+}
+
+.login{
+	color:black;
+	width: 300px;
+	height: 50%; 
+	margin: 0 auto;
+}
+@font-face{
+font-family: "Open-Sans";
+src:url(../fonts/OpenSans-Bold.ttf);
+}
+
+nav{
+	background-color: #29b1ff;
+}
+.btn{
+	margin-left: 0px;
+	background-color: #2093e6;
+}
+.log button{
+	width: 100%;
+}
+.btn:hover{
+	background-color: #0077cf;
+}
+.gambar{
+	display: block;
+	margin:0 auto;
+	width: 55%;
+}
+.brand-logo{
+	margin-bottom: 200px;
+}
+.card-panel{
+	margin-top: 50px;
+}
+.register form{
+	width: 88%;
+	margin-left: 30px;
+}
+
+ul.side-nav.leftside-navigation{
+	top: 0px !important;
+}
+#table-datatables{
+	width: 70%;
+	display: block;
+	margin: 150px 0px 0px 400px;
+}
+.pagination{
+	margin-left:200px;
+}
+.mdi-content-backspace{
+	font-size: 25px;
+}
+.mdi-content-forward{
+	font-size:20px;
+}
+li .menunav{
+	font-weight:600;
+	color: #545454;
+}
+.btn:focus, .btn-large:focus, .btn-floating:focus{
+	background-color:#0094e9;
+}
+nav ul a{
+	margin-top:-8px;
+}
+nav ul a:hover{
+	color:#0093cf;
+}
+.input-field .prefix.active{
+	color:#0094e9;
+}
+input[type="text"]:focus:not([readonly]) + label,input[type="password"]:focus:not([readonly]) + label{
+	color:#0094e9;
+
+}
+input.valid[type="text"],input.valid[type="password"]{
+	border-bottom: 1px solid #0094e9;
+	box-shadow:0 1px 0 0 #0094e9;
+}
+
+#test1 .container{
+	width: 45%;
+}
