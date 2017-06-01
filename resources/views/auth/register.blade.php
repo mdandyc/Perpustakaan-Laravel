@@ -2,7 +2,7 @@
 <!DOCTYPE html>
   <html>
     <head>
-    
+
       <link rel="shortcut icon" href="/img/icon.png">
        <link type="text/css" rel="stylesheet" href="/css/materialize/materialize.min.css" >
        <link rel="stylesheet" type="text/css" href="/css/materialize/style2.css">
@@ -18,12 +18,12 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse">
       <i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a class="menunav" href="index.html">HOME</a></li>
-        <li><a class="menunav" href="login.html">LOGIN</a></li>
+        <li><a class="menunav" href="/">HOME</a></li>
+        <li><a class="menunav" href="login">LOGIN</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a class="waves-effect waves-light btn" href="index.html">Home</a></li>
-        <li><a class="waves-effect waves-light btn" href="login.html">Login</a></li>
+        <li><a class="waves-effect waves-light btn" href="/">Home</a></li>
+        <li><a class="waves-effect waves-light btn" href="login">Login</a></li>
       </ul>
     </div>
   </nav>

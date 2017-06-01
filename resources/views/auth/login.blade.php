@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
   <html>
-  
+
       <link rel="shortcut icon" href="/img/icon.png">
        <link type="text/css" rel="stylesheet" href="/css/materialize/materialize.min.css" >
        <link rel="stylesheet" type="text/css" href="/css/materialize/style2.css">
@@ -20,8 +20,8 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse">
       <i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a class="menunav" href="index.html">HOME</a></li>
-        <li><a class="menunav" href="register.html">REGISTER</a></li>
+        <li><a class="menunav" href="/">HOME</a></li>
+        <li><a class="menunav" href="/register">REGISTER</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="waves-effect waves-light btn" href="index">Home</a></li>
