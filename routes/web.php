@@ -24,3 +24,7 @@ Route::post('peminjaman/search', 'PeminjamanController@search');
 Auth::routes();
 
 Route::get('/home', 'PeminjamanController@index');
+
+Route::get('/awww', function () {
+    return view('home');
+});

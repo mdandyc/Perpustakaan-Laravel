@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
   <html>
-  <link href="/css/app.css" rel="stylesheet">
+  
       <link rel="shortcut icon" href="/img/icon.png">
        <link type="text/css" rel="stylesheet" href="/css/materialize/materialize.min.css" >
        <link rel="stylesheet" type="text/css" href="/css/materialize/style2.css">

@@ -89,3 +89,7 @@ input.valid[type="text"],input.valid[type="password"]{
 #test1 .container{
 	width: 45%;
 }
+.help-block{
+	color:red;
+	font-style: bold;
+}
