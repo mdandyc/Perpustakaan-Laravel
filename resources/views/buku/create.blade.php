@@ -41,7 +41,7 @@
                 </li>
                 <li class="bold"><a href="memberdashboard.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard">	</i> Dashboard</a>
                 </li>
-                <li class="bold active"><a href="#" class="waves-effect waves-cyan"><i class="mdi-av-queue"></i> List Buku</a>
+                <li class="bold active"><a href="/buku" class="waves-effect waves-cyan"><i class="mdi-av-queue"></i> List Buku</a>
                 </li><br>
                 <li class="li-hover"><div class="divider"></div></li>
                 <li><a href="/"><i class="mdi-hardware-keyboard-backspace"></i> Back To Home </a>
@@ -57,7 +57,7 @@
         <div class="input-field col s12">
         <div class="form-group{{ $errors->has('isbn') ? ' has-error' : '' }}">
           <i class="material-icons prefix">vpn_key</i>
-          <input id="icon_prefix isbn" type="text" class="validate form-control" name="isbn" value="{{ old('isbn') }}" required autofocus>
+          <input id="icon_prefix isbn" type="number" class="validate form-control" name="isbn" value="{{ old('isbn') }}" required autofocus>
           <label for="icon_prefix isbn" class="control-label">ISBN</label>
           @if ($errors->has('isbn'))
                                     <span class="help-block">

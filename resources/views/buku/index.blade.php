@@ -39,7 +39,7 @@
                 </li>
                 <li class="bold"><a href="memberdashboard.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard">	</i> Dashboard</a>
                 </li>
-                <li class="bold active"><a href="#" class="waves-effect waves-cyan"><i class="mdi-av-queue"></i> List Buku</a>
+                <li class="bold active"><a href="/buku" class="waves-effect waves-cyan"><i class="mdi-av-queue"></i> List Buku</a>
                 </li><br>
                 <li class="li-hover"><div class="divider"></div></li>
                 <li><a href="/"><i class="mdi-hardware-keyboard-backspace"></i> Back To Home </a>
@@ -51,6 +51,7 @@
                 <div class="col s12 m8 l9">
                 	<div class="bukupinjam">
                 		<h1>Buku Pinjaman</h1>
+                		<a href="/buku/create" class="btn">Tambah Buku</a>
                 	</div>
                   <table id="data-table-simple" class="responsive-table display striped" cellspacing="0">
                     <thead>
