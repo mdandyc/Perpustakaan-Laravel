@@ -18,7 +18,7 @@ class BukuController extends Controller
     }
     public function index()
     {
-        $buku = Buku::all();
+        $buku = Buku::paginate(5);
         return view('buku.index',compact('buku'));
     }
 
