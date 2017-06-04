@@ -41,7 +41,11 @@
                 </li>
                 <li class="bold"><a href="memberdashboard.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard">	</i> Dashboard</a>
                 </li>
-                <li class="bold active"><a href="/buku" class="waves-effect waves-cyan"><i class="mdi-av-queue"></i> List Buku</a>
+                <li class="bold active"><a href="/buku" class="waves-effect waves-cyan">
+      <i class="material-icons">view_week </i> List Buku</a>
+                </li>
+                <li class="bold"><a href="/siswa" class="waves-effect waves-cyan">
+      <i class="material-icons">perm_identity </i> List Siswa</a>
                 </li><br>
                 <li class="li-hover"><div class="divider"></div></li>
                 <li><a href="/"><i class="mdi-hardware-keyboard-backspace"></i> Back To Home </a>
