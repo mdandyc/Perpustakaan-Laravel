@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 </li>
-                <li class="bold"><a href="memberdashboard.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard">	</i> Dashboard</a>
+                <li class="bold"><a href="/peminjaman" class="waves-effect waves-cyan"><i class="mdi-action-dashboard">	</i> Peminjaman</a>
                 </li>
                 <li class="bold active"><a href="/buku" class="waves-effect waves-cyan">
       <i class="material-icons">view_week </i> List Buku</a>
