@@ -127,7 +127,7 @@ class SiswaController extends Controller
     public function search(Request $request)
     {
         $keyword = $request['keyword'];
-        $siswas = Siswa::where('nama','LIKE',"%{$keyword}%")->paginate(2);
+        $siswas = Siswa::where('nama','LIKE',"%{$keyword}%")->paginate(30);
         return view('siswa.index',compact('siswas'));
     }
 }

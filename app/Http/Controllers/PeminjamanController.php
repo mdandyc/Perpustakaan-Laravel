@@ -29,7 +29,7 @@ class PeminjamanController extends Controller
     {
         $siswa=Siswa::all();
         $keyword = $request['keyword'];
-        $pinjams = Peminjaman::where('tgl_pinjam','LIKE',"%$keyword%")->paginate(5);
+        $pinjams = Peminjaman::where('tgl_pinjam','LIKE',"%$keyword%")->paginate(30);
         return view('peminjaman.index',compact('pinjams'));
     }
 

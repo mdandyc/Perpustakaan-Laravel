@@ -59,7 +59,7 @@
                   
                 		<h1>Daftar Peminjaman</h1>
                     <form action="/peminjaman/search" method="post">
-                    <input type="text" name="keyword" placeholder="Masukan Tamgga; Pinjaman">
+                    <input type="text" name="keyword" placeholder="Masukan Tanggal Pinjaman">
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="submit" value="Cari!" class="btn"><br>
                   </form><br>
