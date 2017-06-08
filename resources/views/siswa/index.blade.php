@@ -67,11 +67,11 @@
                   <table id="data-table-simple" class="responsive-table display striped" cellspacing="0">
                     <thead>
                         <tr>
-                            <th>Tanggal Pinjam</th>
-                            <th>Tanggal Kembali</th>
-                            <th>Keterangan</th>
-                            <th>Nama Siswa</th>
-                            <th>Judul Buku</th>
+                            <th>NISN</th>
+                            <th>Nama</th>
+                            <th>Kontak</th>
+                            <th>Jurusan</th>
+
                             <th colspan="2">Opsi</th>
                         </tr>
                     </thead>
